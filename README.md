@@ -1,5 +1,11 @@
+## Your Forked Project Name
 
-## Medical Transcription Analysis
+This repository is a fork of [medical-transcription-analysis](https://github.com/aws-samples/medical-transcription-analysis), implemented during my university thesis at Politecnico delle Marche.  The thesis focused on AI (Artificial Intelligence), AWS (Amazon Web Services), and the services it provides. Below are details about the context and implementation.
+
+During my university thesis, I utilized this project as a valuable resource, gaining competence in its application for AI and AWS-related research. The original project served as a fundamental component supporting my exploration of these topics.
+
+
+### Medical Transcription Analysis
 
 Medical Transcription Analysis (MTA) is a simple solution that leverages the powers of Amazon Transcribe Medical and Amazon Comprehend Medical to provide medical notes transcription and comprehension. The solution opens a WebSocket between the client (browser) and Amazon Transcribe Medical. This WebSocket is used to send the audio from the client to Amazon Transcribe Medical and retrieve real time transcription which is then rendered on the UI. The transcribed results are then sent to Amazon Comprehend Medical which returns an analysis of the transcription.
 
